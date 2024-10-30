@@ -1,0 +1,58 @@
+Public Class Form1
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        Dim 입력값1 As Integer
+        Dim 입력값2 As Integer
+        Dim 결과값 As Integer
+
+        입력값1 = TextBox1.Text
+        입력값2 = TextBox2.Text
+        결과값 = 입력값1 + 입력값2
+        TextBox3.Text = 결과값
+
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+
+        Dim 입력값1 As Integer
+        Dim 입력값2 As Integer
+        Dim 결과값 As Integer
+
+        입력값1 = TextBox1.Text
+        입력값2 = TextBox2.Text
+        결과값 = 입력값1 - 입력값2
+        TextBox3.Text = 결과값
+
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
+        Dim 입력값1 As Integer
+        Dim 입력값2 As Integer
+        Dim 결과값 As Integer
+
+        입력값1 = TextBox1.Text
+        입력값2 = TextBox2.Text
+        결과값 = 입력값1 * 입력값2
+        TextBox3.Text = 결과값
+
+
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+
+        Dim 입력값1 As Single
+        Dim 입력값2 As Single
+        Dim 결과값 As Single
+
+        입력값1 = TextBox1.Text
+        입력값2 = TextBox2.Text
+        결과값 = 입력값1 / 입력값2
+        TextBox3.Text = 결과값
+
+
+    End Sub
+
+End Class
